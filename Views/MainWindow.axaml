@@ -14,10 +14,6 @@
         MaxWidth="450"
 		Content="{Binding Content}">
 
-	<Window.Styles>
-		<StyleInclude Source="/Styles/Style.axaml"/>
-	</Window.Styles>
-
 
 	<Design.DataContext>
 		<vm:MainWindowViewModel/>
