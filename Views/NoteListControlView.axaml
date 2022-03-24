@@ -26,7 +26,7 @@
 				</ItemsControl.ItemTemplate>
 			</ItemsControl>
 		</ScrollViewer>
-		<Button Name="Add" Command="{Binding $parent[Window].DataContext.ChangeView}" Classes="AddButton" Grid.Row="2" Background="LightGray">
+		<Button Name="Add" Width="450" Command="{Binding $parent[Window].DataContext.ChangeView}" Classes="AddButton" Grid.Row="2" Background="LightGray">
 			<Image Source="/Assets/add.ico"/>
 		</Button>
 	</Grid>
